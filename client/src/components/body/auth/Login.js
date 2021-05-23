@@ -15,8 +15,8 @@ const initialState = {
     success: ''
 }
 
-const clientId = process.env.REACT_APP_GOOGLE_CLIENT_ID || "647976725807-n4a44baufeq7cc9o6jduf9aipqvmpfmv.apps.googleusercontent.com"
-const appId = process.env.REACT_APP_FACEBOOK_APP_ID || "1114451792397795"
+const clientId = process.env.REACT_APP_GOOGLE_CLIENT_ID || "66xxxxxxxxxxxxxxxx"
+const appId = process.env.REACT_APP_FACEBOOK_APP_ID || "111xxxxxxxx"
 
 function Login() {
     const [user, setUser] = useState(initialState)
