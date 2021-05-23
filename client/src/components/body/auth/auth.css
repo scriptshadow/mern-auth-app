@@ -1,0 +1,67 @@
+.login-page {
+    max-width: 500px;
+    margin: auto;
+    color: #444;
+    padding: 0 15px;
+}
+.login-page h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 20px 0;
+    letter-spacing: 1.5px;
+}
+.login-page input{
+    width: 100%;
+    height: 45px;
+    margin: 10px 0;
+    border: 2px solid #777;
+    outline: none;
+    padding: 0 10px;
+}
+.login-page .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+}
+.login-page .row a{
+    color: #DC143CFF;
+}
+.login-page .row button{
+    width: 150px;
+    padding: 10px 0;
+    background: #000;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-right: 10px;
+}
+.login-page p{
+    padding: 10px 0;
+}
+.login-page a{
+    color: #111;
+    font-weight: 600;
+}
+
+/****** Facebook/ Google *********/
+.login-page hr{
+    margin: 15px 0;
+    color: crimson;
+}
+.login-page .socail button{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+    box-shadow: 0 2px 4px #777;
+    text-align: left;
+}
+.login-page .socail button i.fa{
+    margin-left: -10px;
+    margin-right: 20px;
+    font-size: 16px;
+}
